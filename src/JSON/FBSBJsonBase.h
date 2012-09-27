@@ -29,9 +29,9 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString * SBJSONErrorDomain;
+extern NSString * FBJSONErrorDomain;
 
-
+/*
 enum {
     EUNSUPPORTED = 1,
     EPARSENUM,
@@ -46,6 +46,7 @@ enum {
     EEOF,
     EINPUT
 };
+*/
 
 /**
  @brief Common base class for parsing & writing.
