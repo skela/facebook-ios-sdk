@@ -123,7 +123,8 @@
  @endcode
  
  */
-@interface NSObject (SBProxyForJson)
+
+@interface NSObject (FBProxyForJson)
 - (id)proxyForJson;
 @end
 
